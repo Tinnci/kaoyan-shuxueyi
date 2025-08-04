@@ -54,9 +54,9 @@
   // The number of columns to be used in the page
   cols: 1,
 
-  // The text and code font. Must be a valid font name.
-  text_font: ("Times New Roman", "Georgia", "Cambria", "Libertinus Serif"),
-  code_font: ("Consolas", "Cascadia Code", "DejaVu Sans Mono", "Courier New"),
+  // The text and code font with CJK support. Must be a valid font name.
+  text_font: ("Times New Roman", "Noto Serif SC", "SimSun", "Georgia", "Cambria"),
+  code_font: ("Consolas", "Cascadia Code", "Sarasa Mono SC Nerd Font", "DejaVu Sans Mono"),
 
   // The color of the lecture notes' accent color. Must be a valid HEX color.
   accent: "#DC143C",
@@ -324,8 +324,13 @@
   
   v(24pt, weak: true)
 
-  // Set paragraph to be justified and set linebreaks
-  set par(justify: true, linebreaks: "optimized", leading: 0.8em)
+  // Set paragraph to be justified and set linebreaks with CJK optimization
+  set par(
+    justify: true, 
+    linebreaks: "optimized", 
+    leading: 1.2em,  // Better line spacing for CJK text
+    first-line-indent: 2em  // Traditional Chinese paragraph indentation
+  )
 
   // Display the lecture notes' content.
   body

@@ -9,11 +9,19 @@
   authors: (
     (
       name: "GitHub @ Origami404",
-      link: "",
-      affiliations: "",
+      link: "https://github.com/Origami404",
+      affiliations: "1",
+    ),
+    (
+      name: "GitHub @ Tinnci",
+      link: "https://github.com/Tinnci",
+      affiliations: "2",
     ),
   ),
-  affiliations: (),
+  affiliations: (
+    (id: "1", name: "Original Author"),
+    (id: "2", name: "Fork Maintainer - Typst Compatibility & Enhancements"),
+  ),
   lof: false,
   lot: false,
   lol: false,

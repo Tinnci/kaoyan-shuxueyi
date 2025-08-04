@@ -1,3 +1,7 @@
+// 考研数学一复习笔记 - 概率与统计部分
+// 原作者: GitHub @ Origami404 (https://github.com/Origami404)
+// 维护者: GitHub @ Tinnci (https://github.com/Tinnci) - Typst兼容性修复与增强
+
 #import "./template.typ": sectionline, gray_table, colored
 #import "@preview/tablex:0.0.9": tablex, rowspanx, colspanx
 

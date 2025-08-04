@@ -32,6 +32,9 @@
 
 *题目类型：* 图表作文  
 *具体要求：* 根据表格数据写作，表格显示历年来全国居民平均每百户主要耐用消费品拥有量  
+*附图表：* # 图表插入
+ \image(path: "../英语/真题/24_graph.png", width: 60%)
+*附说明：* 以上图表反映了2005年到2023年主要耐用消费品拥有量变化情况。
 *字数要求：* 160-200词  
 *图表主题：* 2014-2023年空调、洗衣机、冰箱拥有量变化趋势  
 *数据要点：* 空调从75.2台增长至145.9台，洗衣机从83.7台增长至98.2台，冰箱从85台增长至103.4台
@@ -69,6 +72,9 @@
 
 *题目类型：* 图画作文  
 *具体要求：* Write an essay of 160-200 words based on the following picture below. In your essay, you should describe the picture briefly, explain its intended meaning and give your comments.  
+*附图画：* # 图画插入
+ \image(path: "../英语/真题/25_writing.png", width: 60%)
+*附说明：* 以上图画展示了写作的重要性及其文化背景。
 *字数要求：* 160-200词
 
 ---

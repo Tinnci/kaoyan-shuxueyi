@@ -7,7 +7,65 @@
 
 #let colored(it) = text(fill: red, weight: "bold", it)
 
-= 小作文
+= 大作文（英语一重点）
+
+== 题型特点
+
+- **主要题型**: 漫画作文（几乎所有年份）
+- **偶尔出现**: 图表作文（需要有所准备）
+- **字数要求**: 160-200词
+- **分值**: 20分
+- **建议用时**: 35分钟
+
+== 漫画作文结构
+
+=== 第一段：图画描述
+- This cartoon vividly depicts that...
+- As is shown in the picture, ...
+- The cartoon presents a thought-provoking scene in which...
+- What a meaningful picture it is! It conveys that...
+
+=== 第二段：寓意阐释
+- The implied meaning of this cartoon can be interpreted in terms of...
+- This cartoon is designed to reveal...
+- The purpose of the drawer is to tell us that...
+- What the cartoon conveys goes far beyond this.
+
+=== 第三段：个人评论
+- From my perspective, ...
+- As far as I am concerned, ...
+- Therefore, it is imperative that...
+- Only in this way can we...
+
+== 备考提醒
+
+#colored[重要]: 虽然英语一主要考漫画作文，但大纲并未限制只考漫画。建议#colored[适当了解图表作文]，以防万一出题人改变套路。
+
+= 小作文（应用文）
+
+== 题型特点
+
+- **字数要求**: 约100词
+- **分值**: 10分  
+- **建议用时**: 15分钟
+- **文体类型**: 书信、通知、告示、纪要等
+
+== 英语一小作文历年题型
+
+=== 已考过的信件类型
+- 建议信 (Letter of Advice)
+- 推荐信 (Letter of Recommendation) 
+- 邀请信 (Letter of Invitation)
+- 辞职信 (Letter of Resignation)
+- 道歉信 (Letter of Apology)
+- 介绍信 (Letter of Introduction)
+- 通知 (Notice)
+
+=== 备考提醒
+
+#colored[重要]: 建议同时关注英语二的小作文题型，因为：
+- 英语二只考过的类型：#colored[感谢信、投诉信]
+- 为了复习的全面性，最好了解所有可能的信件类型
 
 == 内容
 

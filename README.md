@@ -18,8 +18,8 @@
 ## 📚 内容结构
 
 - **微积分**：三角函数公式、极限与导数、一元积分、微分方程、中值定理、多元微分学、级数、空间解析几何
-- **线性代数**：基础理论与计算方法
-- **概率与统计**：概率论基础与数理统计
+- **Linear Algebra**：基础理论与计算方法
+- **Probability**：概率论基础与数理统计
 
 ## 🔧 编译步骤
 
@@ -48,6 +48,28 @@ typst watch math.typ --root .
 ### 输出文件
 
 编译成功后会生成 `math.pdf` 文件，这就是完整的考研数学一复习笔记。
+
+### 一键编译所有文档
+
+使用提供的脚本可以一次性编译所有文档：
+
+**PowerShell** (适用于 Windows)：
+```powershell
+.\compile-all.ps1
+```
+
+**Bash** (适用于 Linux/macOS)：
+```bash
+chmod +x compile-all.sh
+./compile-all.sh
+```
+
+这些脚本会编译以下所有文档：
+- `math.typ` → `math.pdf` (数学一完整笔记)
+- `english.typ` → `english.pdf` (英语作文模板)
+- `408.typ` → `408.pdf` (408计算机笔记)
+- `probability.typ` → `probability.pdf` (概率统计单独版本)
+- `linear-algebra.typ` → `linear-algebra.pdf` (线性代数单独版本)
 
 ## 🚀 快速开始
 

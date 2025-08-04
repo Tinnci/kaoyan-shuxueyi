@@ -55,8 +55,8 @@
   cols: 1,
 
   // The text and code font. Must be a valid font name.
-  text_font: "Linux Libertine",
-  code_font: "DejaVu Sans Mono",
+  text_font: ("Times New Roman", "Times", "serif"),
+  code_font: ("Consolas", "Monaco", "Courier New", "monospace"),
 
   // The color of the lecture notes' accent color. Must be a valid HEX color.
   accent: "#DC143C",

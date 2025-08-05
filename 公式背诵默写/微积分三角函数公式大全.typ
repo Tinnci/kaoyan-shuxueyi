@@ -91,4 +91,44 @@
     
     - $integral e^(a x) sin(b x) thin d x = (e^(a x))/(a^2+b^2)(a sin(b x) - b cos(b x)) + C$
     - $integral e^(a x) cos(b x) thin d x = (e^(a x))/(a^2+b^2)(a cos(b x) + b sin(b x)) + C$
+    
+    == 含有平方项的积分（极其重要）
+    
+    - $integral 1/(x^2 + a^2) thin d x = 1/a arctan(x/a) + C$
+    - $integral 1/(x^2 - a^2) thin d x = 1/(2a) ln|frac(x-a, x+a)| + C$
+    - $integral 1/(a^2 - x^2) thin d x = 1/(2a) ln|frac(a+x, a-x)| + C$
+    
+    == 含有根式的积分
+    
+    - $integral 1/sqrt(a^2 - x^2) thin d x = arcsin(x/a) + C$
+    - $integral 1/sqrt(x^2 + a^2) thin d x = ln|x + sqrt(x^2 + a^2)| + C$
+    - $integral 1/sqrt(x^2 - a^2) thin d x = ln|x + sqrt(x^2 - a^2)| + C$
+    
+    - $integral sqrt(a^2 - x^2) thin d x = x/2 sqrt(a^2 - x^2) + a^2/2 arcsin(x/a) + C$
+    - $integral sqrt(x^2 + a^2) thin d x = x/2 sqrt(x^2 + a^2) + a^2/2 ln|x + sqrt(x^2 + a^2)| + C$
+    - $integral sqrt(x^2 - a^2) thin d x = x/2 sqrt(x^2 - a^2) - a^2/2 ln|x + sqrt(x^2 - a^2)| + C$
+    
+    == 三角函数的幂次积分
+    
+    - $integral sin^n x thin d x = -1/n sin^(n-1) x cos x + (n-1)/n integral sin^(n-2) x thin d x$
+    - $integral cos^n x thin d x = 1/n cos^(n-1) x sin x + (n-1)/n integral cos^(n-2) x thin d x$
+    
+    特殊情况：
+    - $integral sin^3 x thin d x = -cos x + 1/3 cos^3 x + C$
+    - $integral cos^3 x thin d x = sin x - 1/3 sin^3 x + C$
+    - $integral sin^4 x thin d x = 3/8 x - 1/4 sin(2x) + 1/32 sin(4x) + C$
+    - $integral cos^4 x thin d x = 3/8 x + 1/4 sin(2x) + 1/32 sin(4x) + C$
+    
+    == 分部积分常用公式
+    
+    - $integral x sin x thin d x = sin x - x cos x + C$
+    - $integral x cos x thin d x = cos x + x sin x + C$
+    - $integral x^2 sin x thin d x = 2x sin x - (x^2 - 2) cos x + C$
+    - $integral x^2 cos x thin d x = 2x cos x + (x^2 - 2) sin x + C$
+    - $integral x e^x thin d x = (x - 1) e^x + C$
+    - $integral x^2 e^x thin d x = (x^2 - 2x + 2) e^x + C$
+    - $integral ln x thin d x = x ln x - x + C$
+    - $integral x ln x thin d x = x^2/2 ln x - x^2/4 + C$
+    - $integral arctan x thin d x = x arctan x - 1/2 ln(1 + x^2) + C$
+    - $integral arcsin x thin d x = x arcsin x + sqrt(1 - x^2) + C$
 ]

@@ -32,7 +32,8 @@
 % 颜色与盒子
 \usepackage[dvipsnames]{xcolor}
 \usepackage[most]{tcolorbox}
-\tcbset{colback=white,colframe=MidnightBlue!60!black,boxrule=0.6pt,arc=2pt}
+% 统一 tcolorbox 盒子内边距与圆角
+\tcbset{colback=white,colframe=MidnightBlue!60!black,boxrule=0.6pt,arc=2pt,left=6pt,right=6pt,top=6pt,bottom=6pt}
 
 % 图形绘制（TikZ / PGFPlots）
 \usepackage{tikz}
@@ -43,10 +44,39 @@
 % 超链接
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 
-% 标题信息
-\title{伽马函数（Gamma Function）速记与例题（单栏速查版）}
-\author{\small 摘要整理}
-\date{\small \today}
+% 章节标题样式与间距优化、列表间距、页眉页脚与自定义标题框
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{MidnightBlue}}{\thesection}{0.5em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries\color{MidnightBlue}}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{0.8em}{0.5em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.4em}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.2em}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{伽马函数速记与例题}
+\fancyhead[R]{\today}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage{titling}
+% 使用 tcolorbox 包装标题，使其更醒目
+\pretitle{\begin{center}\begin{tcolorbox}[colback=MidnightBlue!3,colframe=MidnightBlue!60,boxrule=0.8pt,arc=2pt]
+\LARGE\bfseries}
+\posttitle{\\[2pt]\normalsize 考研数学·单栏速查版\\\small Gamma Function Cheatsheet\end{tcolorbox}\end{center}}
+\preauthor{\begin{center}\small}
+\postauthor{\end{center}}
+\predate{\begin{center}\small}
+\postdate{\end{center}}
+
+% 标题信息（优化：更简洁的主标题 + 副标题在 pretitle 中给出）
+\title{伽马函数速记与例题}
+\author{摘要整理}
+\date{\today}
 
 \begin{document}
 \maketitle
